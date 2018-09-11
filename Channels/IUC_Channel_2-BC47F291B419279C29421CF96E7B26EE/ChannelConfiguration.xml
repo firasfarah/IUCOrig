@@ -1,0 +1,19 @@
+<channel
+   name="IUC: Channel 2"
+   guid="BC47F291B419279C29421CF96E7B26EE"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="IUC_Channel_2-To-pDjPuubiBK4Itz"
+      commit_id="882234e476e5f878e867d85cad39e9acb7ebcc7f"
+      commit_comment="Remove close">
+      <dequeue_list>
+         <dequeue
+            source_name="IUC: Channel1"
+            dequeue_guid="0BA22347235A924DDD5692E74C0743D9"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>

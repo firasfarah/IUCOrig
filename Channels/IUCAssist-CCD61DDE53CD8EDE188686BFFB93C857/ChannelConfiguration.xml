@@ -1,0 +1,16 @@
+<channel
+   name="IUCAssist"
+   guid="CCD61DDE53CD8EDE188686BFFB93C857"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="IUCAssist-From-0wtUymxeM8jWZi"
+      commit_id="e72b49aca5c0a930f688354e35c30291a5191ddb"
+      commit_comment="j"
+      poll_time="10000">
+   </from_mapper>
+</channel>

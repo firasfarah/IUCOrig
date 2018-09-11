@@ -1,0 +1,15 @@
+{
+    "LocalDependencies": [
+        "csvUtil.lua"
+    ],
+    "LuaDependencies": [
+        "IUCConfigs"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1536696485",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
