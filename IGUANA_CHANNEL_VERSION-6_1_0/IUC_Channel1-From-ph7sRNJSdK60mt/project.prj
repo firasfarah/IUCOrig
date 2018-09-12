@@ -1,0 +1,13 @@
+{
+    "LocalDependencies": [
+        "dbConfigs.lua"
+    ],
+    "LuaDependencies": [],
+    "OtherDependencies": [],
+    "timestamp": "1536710177",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
