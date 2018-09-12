@@ -1,0 +1,19 @@
+<channel
+   name="IUC: Channel 4"
+   guid="7BA781F585F6556EDFCC4E29CF986811"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="IUC_Channel_4-To-J2aMidDbat7EqF"
+      commit_id="44cb64dec23f5270a6f5fd6b04e564f6c1dc372c"
+      commit_comment="okay">
+      <dequeue_list>
+         <dequeue
+            source_name="IUC: Channel1"
+            dequeue_guid="33801B116BA629705BEED698232FE9AC"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>

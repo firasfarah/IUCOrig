@@ -1,0 +1,16 @@
+{
+    "Samples": [
+        {
+            "Message": "{\r   \"PatientId\": 12,\r   \"fName\": \"John\",\r   \"lName\": \"Smith\",\r   \"age\": 28\r}",
+            "Name": "Message 1"
+        },
+        {
+            "Message": "{\n   \"fName\": \"John\",\n   \"patientId\": 8612,\n   \"age\": 72,\n   \"lName\": \"Smith\"\n}",
+            "Name": "Message 2"
+        },
+        {
+            "Message": "{\n   \"patientId\": 4838,\n   \"sex\": \"M\",\n   \"firstName\": \"MaryH\",\n   \"dob\": \"19581026\",\n   \"ssn\": \"979-480-575\",\n   \"lastName\": \"WHITE\"\n}",
+            "Name": "Message 3"
+        }
+    ]
+}
