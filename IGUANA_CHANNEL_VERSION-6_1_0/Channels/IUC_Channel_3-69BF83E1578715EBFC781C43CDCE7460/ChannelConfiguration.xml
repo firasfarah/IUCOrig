@@ -1,0 +1,45 @@
+<channel
+   name="IUC: Channel 3"
+   guid="69BF83E1578715EBFC781C43CDCE7460"
+   description=""
+   start_automatically="false"
+   logging_level="2"
+   use_message_filter="true">
+   <to_file
+      output_dir="${destDirOrig}/"
+      write_to_separate_file="true"
+      output_single_filename=""
+      use_prepended_info_as_filename="false"
+      output_file_id_type="1"
+      output_filename_mask="%i.txt"
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      ftp_server="10.211.55.151"
+      ftp_username="origIUC"
+      ftp_password="BzQDO23W7wR5vB4O9mLVngoEl2RVtaAiIjo/X+Or7LI="
+      ftp_path="${ftpPathOrig}"
+      ftp_max_reconnect="5"
+      sftp_authentication_method="user_password"
+      use_ftp="true">
+      <dequeue_list>
+         <dequeue
+            source_name="IUC: Channel1"
+            dequeue_guid="77EA05B58ED93E00BB848972D9A56AAF"/>
+      </dequeue_list>
+   </to_file>
+   <from_channel/>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="IUC_Channel_3-Filter-YPEDl11MTCpGrd"
+      translator_commit_id="4e5f1b4bfc21c097275e30ccb09de4a03eba57ca"
+      translator_commit_comment="Import Translators: ok">
+   </message_filter>
+</channel>
