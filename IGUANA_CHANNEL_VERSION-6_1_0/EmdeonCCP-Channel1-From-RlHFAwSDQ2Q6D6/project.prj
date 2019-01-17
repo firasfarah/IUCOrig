@@ -1,0 +1,23 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "ccpAuth",
+        "dateparse",
+        "emdeonAuth",
+        "encrypt.password",
+        "requestCreators",
+        "retry",
+        "siteConfig",
+        "soapTemplates",
+        "utils"
+    ],
+    "OtherDependencies": [
+        "emdeon.vmd"
+    ],
+    "timestamp": "1547495277",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

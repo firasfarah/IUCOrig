@@ -1,0 +1,28 @@
+{
+    "LocalDependencies": [
+        "generalHelper.lua",
+        "labresults.lua",
+        "orders.lua",
+        "resultValues.lua"
+    ],
+    "LuaDependencies": [
+        "ccpAuth",
+        "dateparse",
+        "emdeonAuth",
+        "encrypt.password",
+        "requestCreators",
+        "retry",
+        "siteConfig",
+        "soapTemplates",
+        "utils"
+    ],
+    "OtherDependencies": [
+        "emdeon.vmd"
+    ],
+    "timestamp": "1547495397",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

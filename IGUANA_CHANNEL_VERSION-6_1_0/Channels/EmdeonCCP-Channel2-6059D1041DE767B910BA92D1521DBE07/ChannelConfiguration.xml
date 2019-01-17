@@ -1,0 +1,31 @@
+<channel
+   name="EmdeonCCP-Channel2"
+   guid="6059D1041DE767B910BA92D1521DBE07"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="EmdeonCCP-Channel2-To-9oEnD3pFl8kPnD"
+      commit_id="30531058b602d6074f66660b7adb28b411941826"
+      commit_comment="changed VMD file">
+      <dequeue_list>
+         <dequeue
+            source_name="EmdeonCCP-Channel1"
+            dequeue_guid="BF4418779CB1FD5323821333C0417985"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="EmdeonCCP-Channel2-Filter-w91Wb4TxZQnDzh">
+   </message_filter>
+</channel>
